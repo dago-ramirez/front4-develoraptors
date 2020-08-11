@@ -1,0 +1,16 @@
+#navbarNavDropdown  {
+    background-color: #14d9c4;
+    color: #ffffff;
+}
+
+#li  {
+    color:  #ffffff;
+}
+
+#nombres {
+   color: #14d9c4;
+}
+
+#nombres:hover {
+    color: #54585a;
+}
