@@ -1,0 +1,21 @@
+body main #quienes_somos h1{
+    font-family: 'Rubik', sans-serif;
+    color: #099d8d;
+    text-transform: uppercase;
+}
+
+body main #quienes_somos h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+body main #quienes_somos p {
+    font-family: 'Open Sans', sans-serif;
+    color: #54585a;
+}
+
+body main #quienes_somos p a i {
+    font-size: 25px;
+    color: #099d8d;
+}
