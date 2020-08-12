@@ -19,3 +19,9 @@ body main #quienes_somos p a i {
     font-size: 25px;
     color: #099d8d;
 }
+
+@media (min-width: 768px) {
+    body main #quienes_somos p {
+        text-align: justify;
+    }
+}
