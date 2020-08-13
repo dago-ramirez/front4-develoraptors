@@ -15,7 +15,7 @@ body main #quienes_somos p {
     color: #54585a;
 }
 
-body main #quienes_somos p a i {
+body main #quienes_somos span a i {
     font-size: 25px;
     color: #099d8d;
 }
