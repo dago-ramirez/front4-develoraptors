@@ -42,50 +42,63 @@
 </header>
 <body>
     <main>
-        <section id="contacto" class="container">
-          <div class="text-center p-5">
-            <h1 class="display-4">CONTACTO</h1>
-            <p class="">Utilice el siguiente formulario para dar una queja o sugerencia, estaremos felices de contestar sus inquietudes.</p>
-            <p class="d-inline campos"> los campos marcados con <h4 class="d-inline campos">*</h4> son obligatorios.</p>
-          </div>
-        </section>
         <section id="formulario">
-          <form class="container  pt-3">
-            <div class="form-group mb-3">
-              <label for="name_completo"class ="d-inline">Nombre Completo <h4 class="d-inline">*</h4></label>
-              <input type="text" class="form-control form-control-lg" placeholder="Nombre..." id="name_completo" required>
-            </div>
-            <div class="row">
-              <div class="form-group mb-3 col-8">
-                  <label for="email" class="d-inline">Email <h4 class="d-inline">*</h4></label>
-                  <input type="email" class="form-control form-control-lg" placeholder="nombre.apellidos@mail.com" id="email" aria-describedby="emailHelp" required>
-              </div>
+          <div class="container  pt-3">
+            <form>
+              <article id="contacto" class="container">
+                <div class="text-center p-5">
+                  <h1 class="display-4">CONTACTO</h1>
+                  <p class="">Utilice el siguiente formulario para dar una queja o sugerencia, estaremos felices de contestar sus inquietudes.</p>
+                  <p class="d-inline campos"> los campos marcados con <h4 class="d-inline campos">*</h4> son obligatorios.</p>
+                </div>
+              </article>
               <div class="form-group mb-3">
-                <div class="col-12">
-                    <label for="telefono">Teléfono</label>
-                    <input type="number" class="form-control form-control-lg" placeholder="Ej: 123456789" id="telefono" aria-describedby="emailHelp">
+                <label for="name_completo"class ="d-inline">Nombre Completo <h4 class="d-inline">*</h4></label>
+                <input type="text" class="form-control form-control-lg" placeholder="Nombre..." id="name_completo" required>
+              </div>
+              <div class="row">
+                <div class="form-group mb-3 col-8">
+                    <label for="email" class="d-inline">Email <h4 class="d-inline">*</h4></label>
+                    <input type="email" class="form-control form-control-lg" placeholder="nombre.apellidos@mail.com" id="email" aria-describedby="emailHelp" required>
+                </div>
+                <div class="form-group mb-3">
+                  <div class="col-12">
+                      <label for="telefono">Teléfono</label>
+                      <input type="number" class="form-control form-control-lg" placeholder="Ej: 123456789" id="telefono" aria-describedby="emailHelp">
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="form-group">
-                    <label for="mensaje" class="d-inline">Mensaje<h4 class="d-inline">*</h4></label>
-                    <textarea name="" id="" cols="30" rows="5" placeholder="¿Que necesitas?" class="form-control" id="mensaje" required></textarea>              </div>
-            <div class="row justify-content-end">
-                  <div class="col-4">
-                    <button type="submit" id="enviar" class="btn btn-lg btn-primary btn-lg btn-block">Enviar</button>
-                  </div>
-            </div>   
-          </form>
+              <div class="form-group">
+                      <label for="mensaje" class="d-inline">Mensaje<h4 class="d-inline">*</h4></label>
+                      <textarea name="" id="" cols="30" rows="5" placeholder="¿Que necesitas?" class="form-control" id="mensaje" required></textarea>              </div>
+              <div class="row justify-content-end">
+                    <div class="col-4">
+                      <button type="submit" id="enviar" class="btn btn-lg btn-primary btn-lg btn-block">Enviar</button>
+                    </div>
+              </div>   
+            </form>
+          </div>
         </section>
     </main>
 </body>
 <footer>
-    <span></span>
-    <ul>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-    </ul>
+  <div class="container-fluid">
+  <hr class="pt-3">
+  <div class="row justify-content-lg-end justify-content-sm-center">
+    <div class="col-lg-9">
+      <span class="text-sm-center">Nombre del grupo © 2020</span>
+    </div>
+  </div>
+    <div class="row justify-content-lg-end justify-content-sm-center justify-content-xs-center">
+      <div class="col-lg-6  text-xs-center text-lg-left">
+        <ul class="nav flex-column">
+            <li class="pt-2 text-sm-center" ><a href="../index.html" class="text-decoration-none">EQUIPO</a></li>
+            <li class="pt-2 text-sm-center"><a href="" class="text-decoration-none">QUIÉNES SOMOS</a></li>
+            <li class="pt-2 text-sm-center"><a href="#formulario" class="text-decoration-none">CONTACTO</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </footer>
 <script src="https://kit.fontawesome.com/aa7e44f5a7.js" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
