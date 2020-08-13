@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body main #quienes_somos h1{
     font-family: 'Rubik', sans-serif;
     color: #099d8d;
@@ -25,3 +26,39 @@ body main #quienes_somos span a i {
         text-align: justify;
     }
 }
+=======
+
+#nav {
+    position: fixed;
+    width: 100%;
+    min-width: 250px;
+}
+
+
+.bg-nav {
+    background-color:  #14d9c4;
+} 
+
+ #li  {
+    color:  #ffffff;
+} 
+
+#nombres {
+   
+   background-color: white;
+   text-align: initial;
+   
+   
+
+   
+} 
+
+#nombres:hover {
+    color: #fff;
+    background-color: #14d9c4;
+}
+
+img {
+    min-width: 320px;
+}
+>>>>>>> bf2d22a529698583b01777c35140b4624b85a5c6
