@@ -8,6 +8,8 @@
 
 .bg-nav {
     background-color:  #14d9c4;
+    min-width: 200px;
+    z-index: 1;
 } 
 
  #li  {
