@@ -25,3 +25,8 @@ body main #quienes_somos span a i {
         text-align: justify;
     }
 }
+@media (max-width: 575.98px) {
+    body main #quienes_somos h1{
+        font-size: 30px;
+    }
+}
