@@ -1,3 +1,33 @@
+body main #quienes_somos h1{
+    font-family: 'Rubik', sans-serif;
+    color: #099d8d;
+    text-transform: uppercase;
+}
+
+body main #quienes_somos h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: black;
+}
+
+/* body main #quienes_somos p { */
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #54585a;
+    background-color: #fff;
+}
+
+body main #quienes_somos span a i {
+    font-size: 25px;
+    color: #099d8d;
+}
+
+@media (min-width: 768px) {
+    body main #quienes_somos p {
+        text-align: justify;
+    }
+}
 
 #nav {
     position: fixed;
@@ -16,14 +46,9 @@
     color:  #ffffff;
 } 
 
-#nombres {
-   
+#nombres {   
    background-color: white;
-   text-align: initial;
-   
-   
-
-   
+   text-align: initial;  
 } 
 
 #nombres:hover {
@@ -33,4 +58,49 @@
 
 img {
     min-width: 320px;
+}
+
+.container-fluid{
+    /* background-color: rgb(238, 238, 238); */
+    text-align: center;
+    font-size: 16px;
+    /* padding: 80px; */
+    color: #54585A;    
+}
+
+
+.title{
+    color: #099D8D;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+}
+h4 {
+    color:#14d9c4;
+}
+
+#contacto h1 {
+    color:#099d8d;
+}
+
+#contacto .campos {
+    font-size: 12px;
+}
+
+#formulario input {
+    font-size: 16px;
+}
+
+#enviar{
+    color:#ffffff;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #099d8d;
+    font-size: 16px;
+}
+
+footer ul a {
+    color: #b8b8b9;
+}
+
+footer span {
+    color: #b8b8b9;
 }
