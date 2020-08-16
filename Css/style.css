@@ -34,6 +34,7 @@ body main #quienes_somos span a i {
 #iconos-navbar {
     text-transform: uppercase;
     font-size: 14px;
+    text-decoration-color: gray;
 }
 
 
@@ -45,19 +46,13 @@ body main #quienes_somos span a i {
     width: 100%;
 }
 
-.bg-navbar {
-    background-color: #099d8d;
-}
-
-
-@media (max-width: 320.1px) {
+    
+  @media (max-width: 320.1px) {
     .bg-navbar {
-        background-color: #14d9c4;
-        
-    }
-
+        background-color: #14d9c4;                    
+    } 
+   
 }
-
 
 #nombres:hover {
     color: #fff;
