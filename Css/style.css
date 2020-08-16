@@ -42,28 +42,71 @@ body main #quienes_somos span a i {
 }
 
 
+#iconos-navbar {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+
 .bg-nav {
-    background-color:  #14d9c4;
-    min-width: 200px;
+    background-color: #099d8d;
+    min-width: 395px; 
     z-index: 1;
+    position: fixed;
+    width: 100%;
 } 
 
- #li  {
-    color:  #ffffff;
-} 
 
-#nombres {   
-   background-color: white;
-   text-align: initial;  
-} 
+
 
 #nombres:hover {
     color: #fff;
-    background-color: #14d9c4;
+    background-color: #099d8d;
 }
 
-img {
-    min-width: 320px;
+#banner {
+    width: 100%;
+    height: 100%;
+    
+}
+
+#imagen {
+    height: auto;
+    width: auto;
+    min-width: 350px;
+    min-height: 200px;
+} 
+
+.banner-title {     
+    position: relative;
+    background-color: rgb(165, 76, 76);
+    opacity: 0.7;
+    width: 50%;
+    height: 100px; 
+    bottom: 100px;
+    left: 100px;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    text-align: start;    
+ }
+
+ @media (max-width: 767.94px) {
+    .banner-title {
+        opacity: 1;
+        width: 50%;
+        height: 100px; 
+        bottom: 50px;
+        left: 25%;
+    }
+}
+
+#imagen-formulario {
+    height: auto;
+    width: auto;
+    min-width: 350px;
+    min-height: 200px;
+    
 }
 
 .container-fluid{
