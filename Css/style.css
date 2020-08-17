@@ -1,15 +1,6 @@
-body main #quienes_somos h1{
-    font-family: 'Rubik', sans-serif;
-    color: #099d8d;
-    text-transform: uppercase;
-}
-
-body main #quienes_somos h2 {
-    font-family: 'Open Sans', sans-serif;
-    text-transform: capitalize;
-    font-weight: bolder;
-    color: black;
-}
+/*------------------------------------------------------------------------------*/
+/* Selectores Generales                                                         */
+/*------------------------------------------------------------------------------*/
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -17,22 +8,18 @@ body {
     background-color: #fff;
 }
 
-body main #quienes_somos span a i {
-    font-size: 25px;
+main {
+    min-width: 395px;
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
     color: #099d8d;
+    text-transform: uppercase;
 }
-
-@media (min-width: 768px) {
-    body main #quienes_somos p {
-        text-align: justify;
-    }
-}
-
-@media (max-width: 575.98px) {
-    body main #quienes_somos h1{
-        font-size: 30px;
-    }
-}
+/*------------------------------------------------------------------------------*/
+/* Inicio sesion header                                                         */
+/*------------------------------------------------------------------------------*/
 
 #nav {
     position: fixed;
@@ -42,16 +29,34 @@ body main #quienes_somos span a i {
 
 #iconos-navbar {
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 15px;
+    text-decoration-color: gray;
 }
 
 .bg-nav {
     background-color: #099d8d;
-    min-width: 395px; 
+    min-width: 395px;
     z-index: 1;
     position: fixed;
     width: 100%;
-} 
+}
+
+@media (min-width: 768px) {
+    .title-nav {
+        padding-left: 50px;
+    }
+    
+    .links-nav {
+        padding-right: 50px;
+    }
+}
+
+    
+@media (max-width: 320.1px) {
+    .bg-navbar {
+        background-color: #14d9c4;                    
+    } 
+}
 
 #nombres:hover {
     color: #fff;
@@ -61,7 +66,6 @@ body main #quienes_somos span a i {
 #banner {
     width: 100%;
     height: 100%;
-    background-color: #14d9c4;
     
 }
 
@@ -70,26 +74,26 @@ body main #quienes_somos span a i {
     width: auto;
     min-width: 350px;
     min-height: 200px;
-} 
+}
 
-.banner-title {     
+.banner-title {
     position: relative;
-    background-color: rgb(165, 76, 76);
-    opacity: 0.7;
+    background-color: #ffffff;
+    opacity: 0.8;
     width: 50%;
-    height: 100px; 
+    height: 100px;
     bottom: 100px;
     left: 100px;
     font-size: 16px;
     font-family: 'Rubik', sans-serif;
-    text-align: start;    
- }
+    text-align: start;
+}
 
- @media (max-width: 767.94px) {
+@media (max-width: 767.94px) {
     .banner-title {
         opacity: 1;
         width: 50%;
-        height: 100px; 
+        height: 100px;
         bottom: 50px;
         left: 25%;
     }
@@ -97,19 +101,22 @@ body main #quienes_somos span a i {
 
 #imagen-formulario {
     height: auto;
-    width: auto;
+    width: 100%;
     min-width: 350px;
     min-height: 200px;
-    
+
 }
- 
+
+/*------------------------------------------------------------------------------*/
+/* Inicio Sesion Equipo                                                         */
+/*------------------------------------------------------------------------------*/
+
 .equipo{
-    background-color: rgb(238, 238, 238);
+    background-color: white;
     text-align: center;
     font-size: 16px;
     color: #54585A;
-}   
-
+}
 
 .fortalezas .title{
     color: #099D8D;
@@ -121,6 +128,26 @@ body main #quienes_somos span a i {
     color: #54585a;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
+}
+
+.fortalezas {
+    background-color: #e5e9e9;
+}
+
+.debilidades {
+    background-color: #e5e9e9;
+}
+
+@media (min-width: 768px) {
+    .fortalezas {
+        border-radius: 0 25px 0 0;
+        background-color: #e5e9e9;
+    }
+    
+    .debilidades {
+        border-radius: 25px 0 0 0;
+        background-color: #e5e9e9;
+    }
 }
 
 .debilidades .title{
@@ -135,12 +162,44 @@ body main #quienes_somos span a i {
     font-family: 'Open Sans', sans-serif;   
 }
 
+/*------------------------------------------------------------------------------*/
+/* Inicio Sesion Quienes Somos                                                  */
+/*------------------------------------------------------------------------------*/
+
+body main #quienes_somos h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: black;
+}
+
+body main #quienes_somos span a i {
+    font-size: 25px;
+    color: #099d8d;
+}
+
+@media (min-width: 768px) {
+    body main #quienes_somos p {
+        text-align: justify;
+    }
+}
+
+@media (max-width: 575.98px) {
+    h1{
+        font-size: 30px;
+    }
+}
+
+/*------------------------------------------------------------------------------*/
+/* Inicio SesionFooter                                                          */
+/*------------------------------------------------------------------------------*/
+
 h4 {
-    color:#14d9c4;
+    color: #14d9c4;
 }
 
 #contacto h1 {
-    color:#099d8d;
+    color: #099d8d;
 }
 
 #contacto .campos {
@@ -151,8 +210,8 @@ h4 {
     font-size: 16px;
 }
 
-#enviar{
-    color:#ffffff;
+#enviar {
+    color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     background-color: #099d8d;
     font-size: 16px;
@@ -170,18 +229,6 @@ footer span {
     background-color: #14d9c4;
 }
 
-/* .title {
-    font-family: 'Rubik', sans-serif;
-    color: #14d9c4;
-    font-size: 22px;
-} */
-
-.fortalezas {
-    border-radius: 0 25px 0 0;
-    background-color: #e5e9e9;
-}
-
-.debilidades {
-    border-radius: 25px 0 0 0;
-    background-color: #e5e9e9;
+footer {
+    min-width: 395px;
 }
