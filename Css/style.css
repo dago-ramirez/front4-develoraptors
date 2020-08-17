@@ -1,42 +1,37 @@
-body main #quienes_somos h1 {
-    font-family: 'Rubik', sans-serif;
-    color: #099d8d;
-    text-transform: uppercase;
-}
+/*------------------------------------------------------------------------------*/
+/* Selectores Generales                                                         */
+/*------------------------------------------------------------------------------*/
 
-body main #quienes_somos h2 {
-    font-family: 'Open Sans', sans-serif;
-    text-transform: capitalize;
-    font-weight: bolder;
-    color: black;
-}
-
-/* body main #quienes_somos p { */
 body {
     font-family: 'Open Sans', sans-serif;
     color: #54585a;
     background-color: #fff;
 }
 
-body main #quienes_somos span a i {
-    font-size: 25px;
+main {
+    min-width: 395px;
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
     color: #099d8d;
+    text-transform: uppercase;
 }
+/*------------------------------------------------------------------------------*/
+/* Inicio sección header                                                        */
+/*------------------------------------------------------------------------------*/
 
-@media (min-width: 768px) {
-    body main #quienes_somos p {
-        text-align: justify;
-    }
+#nav {
+    position: fixed;
+    width: 100%;
+    min-width: 250px;
 }
-
-/* Inicio sesion header */
 
 #iconos-navbar {
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 15px;
     text-decoration-color: gray;
 }
-
 
 .bg-nav {
     background-color: #099d8d;
@@ -46,12 +41,21 @@ body main #quienes_somos span a i {
     width: 100%;
 }
 
+@media (min-width: 768px) {
+    .title-nav {
+        padding-left: 50px;
+    }
     
-  @media (max-width: 320.1px) {
+    .links-nav {
+        padding-right: 50px;
+    }
+}
+
+    
+@media (max-width: 320.1px) {
     .bg-navbar {
         background-color: #14d9c4;                    
     } 
-   
 }
 
 #nombres:hover {
@@ -59,6 +63,11 @@ body main #quienes_somos span a i {
     background-color: #099d8d;
 }
 
+#banner {
+    width: 100%;
+    height: 100%;
+    
+}
 
 #imagen {
     height: auto;
@@ -73,7 +82,7 @@ body main #quienes_somos span a i {
     opacity: 0.8;
     width: 50%;
     height: 100px;
-    bottom: 70px;
+    bottom: 100px;
     left: 100px;
     font-size: 15px;
     font-family: 'Rubik', sans-serif;
@@ -90,7 +99,6 @@ body main #quienes_somos span a i {
     }
 }
 
-
 #imagen-formulario {
     height: auto;
     width: 100%;
@@ -99,25 +107,92 @@ body main #quienes_somos span a i {
 
 }
 
+/*------------------------------------------------------------------------------*/
+/* Inicio Sección Equipo                                                        */
+/*------------------------------------------------------------------------------*/
 
-
-/* Fin sesion header */
-
-
-.container-fluid {
-    /* background-color: rgb(238, 238, 238); */
+.equipo{
+    background-color: white;
     text-align: center;
     font-size: 16px;
-    /* padding: 80px; */
     color: #54585A;
 }
 
-
-.title {
+.fortalezas .title{
     color: #099D8D;
     font-size: 22px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Rubik', sans-serif;    
 }
+
+.fortalezas p {
+    color: #54585a;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fortalezas {
+    background-color: #e5e9e9;
+}
+
+.debilidades {
+    background-color: #e5e9e9;
+}
+
+@media (min-width: 768px) {
+    .fortalezas {
+        border-radius: 0 25px 0 0;
+        background-color: #e5e9e9;
+    }
+    
+    .debilidades {
+        border-radius: 25px 0 0 0;
+        background-color: #e5e9e9;
+    }
+}
+
+.debilidades .title{
+    color: #099D8D;
+    font-size: 22px;
+    font-family: 'Rubik', sans-serif;    
+}
+
+.debilidades p {
+    color: #54585a;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;   
+}
+
+/*------------------------------------------------------------------------------*/
+/* Inicio Sección Quienes Somos                                                 */
+/*------------------------------------------------------------------------------*/
+
+body main #quienes_somos h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: black;
+}
+
+body main #quienes_somos span a i {
+    font-size: 25px;
+    color: #099d8d;
+}
+
+@media (min-width: 768px) {
+    body main #quienes_somos p {
+        text-align: justify;
+    }
+}
+
+@media (max-width: 575.98px) {
+    h1{
+        font-size: 30px;
+    }
+}
+
+/*------------------------------------------------------------------------------*/
+/* Inicio Sección Footer                                                          */
+/*------------------------------------------------------------------------------*/
 
 h4 {
     color: #14d9c4;
@@ -148,4 +223,12 @@ footer ul a {
 
 footer span {
     color: #b8b8b9;
+}
+
+#barra {
+    background-color: #14d9c4;
+}
+
+footer {
+    min-width: 395px;
 }
