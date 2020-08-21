@@ -27,7 +27,7 @@ h1 {
     min-width: 250px;
 }
 
-#iconos-navbar {
+.iconos-navbar {
     text-transform: uppercase;
     font-size: 15px;
     text-decoration-color: gray;
@@ -58,7 +58,7 @@ h1 {
     } 
 }
 
-#nombres:hover {
+.dropdown-item:hover {
     color: #fff;
     background-color: #099d8d;
 }
